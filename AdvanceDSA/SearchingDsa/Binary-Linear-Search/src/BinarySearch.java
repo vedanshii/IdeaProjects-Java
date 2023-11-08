@@ -30,6 +30,7 @@ public class BinarySearch {
             if(arr[mid]==element){
                 return mid;
             }
+            //This is Edit Random
             else if(mid>element){
                 high=mid-1;
             }
